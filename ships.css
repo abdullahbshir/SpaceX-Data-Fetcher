@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #F8EDE3;
+}
+
+nav {
+    height: 50px;
+    background-color: black;
+}
+
+.navbar {
+    background-color: #5F6F65 !important;
+}
+
+.btn-secondary {
+    background-color: brown;
+    color: white;
+}
+.card-imges-top{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    max-width: 100%;
+    max-height: 100%;
+}
+.cards-container {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.ships .card {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+    overflow: hidden;
+    margin-left: 30%;
+    top: 20px;
+    background-color: #F8EDE3; 
+}
+
+.ships .card-header {
+    background-color: #DFD3C3; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.ships .card-body {
+    background-color: #DFD3C3; 
+    padding: 15px; 
+    text-align: center;
+}
+
+.ships .card img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.ships2 .card2 {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 7%;
+}
+
+.ships2 .card-header2 {
+    background-color: #D0B8A8; 
+    color: white;
+    padding: 15px; 
+    text-align: center;
+}
+
+.ships2 .card-body2 {
+    background-color: #D0B8A8; /* Lighter pink for card body */
+    padding: 15px; 
+    text-align: center;
+}
+
+.ships2 .card2 img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.ships3 .card3 {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin-top: -33%;
+    margin-left: 50%;
+}
+
+.ships3 .card-header3 {
+    background-color: #D0B8A8; 
+    color: white;
+    padding: 15px; 
+    text-align: center;
+}
+
+.ships3 .card-body3 {
+    background-color: #D0B8A8; 
+    padding: 15px;
+    text-align: center;
+}
+
+.ships3 .card3 img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.card:hover, .card2:hover, .card3:hover  {
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+    .ships, .ships2 {
+        width: 90%; 
+    }
+}
+
+
+.footer {
+    background-color: #000; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+    margin-top: -40px;
+}   
+
+#ship-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f9fa; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-color: #D0B8A8;
+
+}
+
+#ship-container .card {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #DFD3C3;
+}
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+.container-fluid {
+    height: 100%;
+}
